@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 /**
  * Created by root on 16-11-21.
@@ -18,8 +19,12 @@ public class FriendsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.friend_fragment,null);
-       // getActivity().getWindow().setFlags(WindowManager.LayoutParams.F);
+        return inflater.inflate(R.layout.friend_fragment, null);
+        // getActivity().getWindow().setFlags(WindowManager.LayoutParams.F);
+        Toast.makeText(getActivity().getBaseContext(), "git_test", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity().getBaseContext(), "git_test", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity().getBaseContext(), "git_test", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity().getBaseContext(), "git_test", Toast.LENGTH_SHORT).show();
     }
 
 }
